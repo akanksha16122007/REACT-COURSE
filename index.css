@@ -1,9 +1,44 @@
-.headings {
-  color: blue;
-  background-color: aqua;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 400;
-  font-size: medium;
-  font-style: oblique;
-  font-display: block;
+* {
+  background-color: cornsilk;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #c8a98a;
+  border-radius: 6px;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.nav-items > ul {
+  font-size: 20px;
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.res-cards {
+  padding: 5px;
+  width: 200px;
+  background-color: cornsilk;
+  margin: 10px;
+  border: 2px solid #c8a98a;
+  border-radius: 12px;
+}
+.res-cards:hover {
+  cursor: pointer;
+}
+.res-image {
+  width: 100%;
+  height: 150px;
+}
+.restaurant-container {
+  display: flex;
+
+  flex-wrap: wrap;
 }
