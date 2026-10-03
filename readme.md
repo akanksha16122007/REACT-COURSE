@@ -121,3 +121,53 @@ it basically means your ui is config driven, all the ui is driven by a config us
 - always use key to uniquely identify things in map becoz it will just render that specific thing which is added and not others, others will remain same.
 
 # unique key is best >>>>>>>>>>>>>>>>>>>>>> index as a key >>>>>>>>>>>>>>>>>> not using key(not acceptable)
+
+# never keep the harcoded data of your app in the components folder. --> always keep it in utils folder
+
+{good practice} --> not necessary
+
+# TWO TYPES OF EXPORT AND IMPORT:
+
+1. default --> export default <name of variable>
+   --> import <name of variable> from <path>
+2. named --> export <variable type> <variable name>
+   --> import {<name of variable>} from <path>
+
+# React Hooks
+
+it is a normal javascript utility function at the end of the day which is given to us by react.
+
+# Two important JS HOOKS:
+
+1. useState() --> to generate superpowerful state variables in react.
+2. useEffect()
+
+# whenever a state variable changes, react will re-render the component.
+
+# this all algorithm of virtual dom is known as react fiber (reconciliation algorithm).
+
+--> react fiber is a new way to find the diff and updating the dom.
+
+--> whenever something changes on the ui is known as reconciliation.
+
+# REACT IS GOOD AT DOM OPERATIONS.
+
+- virtual dom is representation of actual dom. --> javascript object at the end of the day.
+
+# diff algorithm
+
+--> it finds out the difference between the previous virtual dom and the updated virtual dom.
+
+# react fiber architecture read
+
+# monolith architecture --> old time
+
+--> api,ui,authentication code,database connectivity code,sending sms inside the same project is known as monolith architecture in old time.
+
+# microservice architecture --> new time
+
+--> we have different services for different jobs like api,ui,sending sms,email notifications,etc
+--> all the services combine together and forms a big app.
+--> not in same project.
+--> different services different projects different jobs.
+--> known as separation of concerns.

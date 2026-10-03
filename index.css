@@ -42,3 +42,10 @@
 
   flex-wrap: wrap;
 }
+.filter-btn {
+  background-color: green;
+  color: yellow;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+}
