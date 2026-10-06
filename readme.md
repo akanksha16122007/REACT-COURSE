@@ -140,7 +140,8 @@ it is a normal javascript utility function at the end of the day which is given 
 # Two important JS HOOKS:
 
 1. useState() --> to generate superpowerful state variables in react.
-2. useEffect()
+2. useEffect()--> it takes 2 arguments, the first argument is a callback function and the second argument is a dependency array {functional dependencies}.
+   --> if the dependency array is empty it will run the callback function after the component renders and only once as it is not dependent on anything it is an empty dependency array.
 
 # whenever a state variable changes, react will re-render the component.
 
@@ -170,4 +171,35 @@ it is a normal javascript utility function at the end of the day which is given 
 --> all the services combine together and forms a big app.
 --> not in same project.
 --> different services different projects different jobs.
---> known as separation of concerns.
+--> known as separation of concerns and single responsibility principles.
+--> each and every service has its own job.
+
+# how do these services interact with each other?
+
+--> all the services run on its own specific ports.
+
+# Conditional Rendering:
+
+--> rendering on the basis of some condition is known as conditional rendering.
+
+# why do we even need state variables?? if we can create normal variables.
+
+//whenever we change the localstate variables, react will re-renders the component on every key press.
+
+//whenever state variables update, react triggers a reconcilliation cycle(re-renders the component).
+
+# useEffect hook
+
+1. --> when there is no dependency array passed:
+   --> every time our component renders the useEffect hook will be called.
+
+2. --> when the dependency array is empty then:
+   --> useEffect is called on only initial render and just once.
+
+3. --> when you have something in the dependency array then:
+   --> useEffect will be called only when that something changes that is present in the dependency array.(everytime)
+
+# useState hook
+
+1. never ever create your state variables outside your component.
+2. it is used to make local state variables inside your functional component.
