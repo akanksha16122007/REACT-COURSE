@@ -203,3 +203,36 @@ it is a normal javascript utility function at the end of the day which is given 
 
 1. never ever create your state variables outside your component.
 2. it is used to make local state variables inside your functional component.
+3. try to call these hooks or make these hooks we can say on the top of the functional component to avoid inconsistency in your code.
+4. never ever create your state variables inside if-else,for,functions.--> this can create inconsistency in your code.
+
+# useRouteError hook --> given by react-router-dom
+
+--> it is used for better error message on our page.
+
+# Link component
+
+--> our whole page / component does not re-render again when we will navigate between different pages.
+--> it does not reload the whole page.
+--> it just refereshes the components which are changed.-->{ ## reason behind calling react applications as SPA(single page applications) it does not reload the whole page.}
+
+# types of routing:
+
+1. Client-side routing --> using link component. --> we are implementing
+2. Server-side routing --> using anchor tag.
+
+# behind the scenes Link Component is using anchor tag.
+
+--> link component is a wrapper over anchor tag.
+--> link component is not a type of component which is understandable by browser.
+--> react router dom making the link component anchor tag behind the scenes and also keeping a track of it.
+
+# class-based component
+
+--> at the end of the day, a class based component is a normal javascript class.
+
+# componentDidMount()
+
+-->it is used to make api calls.
+
+# react lifecycle method diagram

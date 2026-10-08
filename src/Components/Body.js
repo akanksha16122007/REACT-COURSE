@@ -3,6 +3,7 @@ import resList from "../utils/mockData";
 import { useState, useEffect } from "react";
 import resList from "../utils/mockData";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
 const Body = () => {
   //local state variable --> superpowerful variable
   const [listOfRestaurants, setListOfRestaurants] = useState(resList);
@@ -81,7 +82,12 @@ const Body = () => {
 
       <div className="restaurant-container">
         {filteredRestaurants.map((restaurant) => (
-          <RestaurantCards key={restaurant.data.id} resData={restaurant} />
+          <Link
+            key={restaurant.data.id}
+            to={"/restaurants/" + restaurant.data.id}
+          >
+            <RestaurantCards resData={restaurant} />
+          </Link>
         ))}
       </div>
     </div>
