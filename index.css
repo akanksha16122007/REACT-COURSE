@@ -1,4 +1,4 @@
-* {
+/* * {
   background-color: cornsilk;
 }
 .header {
@@ -94,3 +94,8 @@
   border: 2px solid #c8a98a;
   border-radius: 12px;
 }
+a {
+  text-decoration: none;
+  color: black;
+} */
+@import "tailwindcss";

@@ -21,7 +21,10 @@
   },
   "homepage": "https://github.com/akanksha16122007/REACT-COURSE#readme",
   "devDependencies": {
-    "parcel": "^2.16.4"
+    "@tailwindcss/postcss": "^4.3.3",
+    "parcel": "^2.16.4",
+    "postcss": "^8.5.29",
+    "tailwindcss": "^4.3.3"
   },
   "dependencies": {
     "react": "^19.3.0",

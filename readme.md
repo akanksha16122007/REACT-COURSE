@@ -236,3 +236,54 @@ it is a normal javascript utility function at the end of the day which is given 
 -->it is used to make api calls.
 
 # react lifecycle method diagram
+
+# single responsibility principle:
+
+-->suppose if you have any function, or class , or if you have any single identity then
+that should have a single responsibility.
+--> it makes your code testable and maintainable.
+--> reusable code.
+
+# Custom Hooks
+
+--> hook is kind of like utility functions.
+--> we will just abstract (take out some responsibility) from a component and extract it inside a hook, so that our hook and our component becomes more modular and readable.
+
+# chunking --> code splitting --> lazy loading --> dynamic bundling--> on demand loading --> dynamic import
+
+--> to break down your app intoo smaller possible chunks to make it more faster.
+
+# Higher Order Components
+
+--> it is a function that takes a component and returns a component.
+--> it basically takes a component as an input and it enhances that component ( adds some extra features to the component) and then returns it --> acts like an enhancer.
+
+# Controlled and Uncontrolled components
+
+RestaurantCategory is a controlled component as it is controlled by its parent RestaurantMenu to collapse the accordion of one category if other is opened before it was an uncontrolled component as each category has its own state controlled by RestaurantCategory only not by its parent i.e. RestaurantMenu.
+
+# Lifting the state up --> read it
+
+# React has two layers
+
+1. data layer --> state, props,etc.
+2. UI layer
+   --> UI layer is powerd by data layer.
+
+# Props Drilling
+
+--> passing the props from one component (parent component) to child component to its child and so on is known as props drilling.
+
+--> we should avoid prop drilling.
+
+# what to use? (to avoid prop drilling)
+
+# Context:
+
+--> it is a global thing. --> do not include it in your components.
+--> it is used when you need to use it multiple times like a lot of time anywhere in your app.
+--> in class based components we cannot use hooks, so we need to use like if the name of the file is UserContext then use
+<UserContext.Consumer/>
+component and access the user in it.
+--> to change the user to some name like "Akanksha" we will use contextProvider.-->
+over here <UserContext.Provider/>
