@@ -1,0 +1,871 @@
+[
+  {
+    "restaurantId": "121603",
+    "restaurantName": "Kannur Food Point",
+    "cloudinaryImageId": "bmwn4n4bn6n1tcpc8x2h",
+    "menu": [
+      {
+        "category": "Recommended",
+        "items": [
+          {
+            "id": "menu-0001",
+            "name": "Papaya Milkshake",
+            "description": "Papaya Milkshake — A refreshing drink prepared to complement your meal.",
+            "price": 75,
+            "veg": true
+          },
+          {
+            "id": "menu-0002",
+            "name": "Mango Milkshake",
+            "description": "Mango Milkshake — A refreshing drink prepared to complement your meal.",
+            "price": 87,
+            "veg": true
+          },
+          {
+            "id": "menu-0003",
+            "name": "Oreo Milkshake",
+            "description": "Oreo Milkshake — A refreshing drink prepared to complement your meal.",
+            "price": 87,
+            "veg": true
+          },
+          {
+            "id": "menu-0004",
+            "name": "Strawberry Milkshake",
+            "description": "Strawberry Milkshake — A refreshing drink prepared to complement your meal.",
+            "price": 87,
+            "veg": true
+          },
+          {
+            "id": "menu-0005",
+            "name": "Fresh Lime",
+            "description": "Fresh Lime — A refreshing drink prepared to complement your meal.",
+            "price": 42,
+            "veg": true
+          }
+        ]
+      },
+      {
+        "category": "Breakfast",
+        "items": [
+          {
+            "id": "menu-0006",
+            "name": "Idli",
+            "description": "Idli — Soft, steamed South Indian rice cakes served with chutney and sambar.",
+            "price": 50,
+            "veg": true
+          },
+          {
+            "id": "menu-0007",
+            "name": "Vada",
+            "description": "Vada — A savoury South Indian fritter with a crisp exterior and soft centre, served with chutney.",
+            "price": 50,
+            "veg": true
+          },
+          {
+            "id": "menu-0008",
+            "name": "Masala Dosa",
+            "description": "Masala Dosa — A thin, crisp South Indian rice-and-lentil crepe served with traditional accompaniments.",
+            "price": 90,
+            "veg": true
+          },
+          {
+            "id": "menu-0009",
+            "name": "Plain Dosa",
+            "description": "Plain Dosa — A thin, crisp South Indian rice-and-lentil crepe served with traditional accompaniments.",
+            "price": 75,
+            "veg": true
+          },
+          {
+            "id": "menu-0010",
+            "name": "Egg Dosa",
+            "description": "Egg Dosa — A thin, crisp South Indian rice-and-lentil crepe served with traditional accompaniments.",
+            "price": 110,
+            "veg": false
+          },
+          {
+            "id": "menu-0011",
+            "name": "Parotta",
+            "description": "Parotta — A freshly prepared Indian bread, ideal for pairing with curries and gravies.",
+            "price": 45,
+            "veg": true
+          },
+          {
+            "id": "menu-0012",
+            "name": "Appam",
+            "description": "Appam — A freshly prepared Indian bread, ideal for pairing with curries and gravies.",
+            "price": 45,
+            "veg": true
+          },
+          {
+            "id": "menu-0013",
+            "name": "Kerala Porotta",
+            "description": "Kerala Porotta — A freshly prepared Indian bread, ideal for pairing with curries and gravies.",
+            "price": 45,
+            "veg": true
+          }
+        ]
+      },
+      {
+        "category": "Egg",
+        "items": [
+          {
+            "id": "menu-0014",
+            "name": "Egg Bhurji",
+            "description": "Egg Bhurji — A savoury egg-based dish cooked with aromatic spices and seasoning.",
+            "price": 84,
+            "veg": false
+          },
+          {
+            "id": "menu-0015",
+            "name": "Egg Masala",
+            "description": "Egg Masala — A hearty, spice-rich Indian preparation served with a flavourful gravy.",
+            "price": 167,
+            "veg": false
+          },
+          {
+            "id": "menu-0016",
+            "name": "Egg Curry",
+            "description": "Egg Curry — A hearty, spice-rich Indian preparation served with a flavourful gravy.",
+            "price": 96,
+            "veg": false
+          },
+          {
+            "id": "menu-0017",
+            "name": "Egg Kolhapuri",
+            "description": "Egg Kolhapuri — A savoury egg-based dish cooked with aromatic spices and seasoning.",
+            "price": 173,
+            "veg": false
+          },
+          {
+            "id": "menu-0018",
+            "name": "Egg Roast",
+            "description": "Egg Roast — A savoury, spice-marinated preparation cooked for a bold, flavourful taste.",
+            "price": 110,
+            "veg": false
+          }
+        ]
+      },
+      {
+        "category": "Starters",
+        "items": [
+          {
+            "id": "menu-0019",
+            "name": "Chicken Roast",
+            "description": "Chicken Roast — A savoury, spice-marinated preparation cooked for a bold, flavourful taste.",
+            "price": 298,
+            "veg": false
+          },
+          {
+            "id": "menu-0020",
+            "name": "Chicken Fry Dry",
+            "description": "Chicken Fry Dry — A savoury, spice-marinated preparation cooked for a bold, flavourful taste.",
+            "price": 210,
+            "veg": false
+          },
+          {
+            "id": "menu-0021",
+            "name": "Al Faham Chicken",
+            "description": "Al Faham Chicken — A savoury, spice-marinated preparation cooked for a bold, flavourful taste.",
+            "price": 257,
+            "veg": false
+          },
+          {
+            "id": "menu-0022",
+            "name": "Pothu Kondattam Dry",
+            "description": "Pothu Kondattam Dry — A tasty, freshly prepared dish seasoned for a satisfying meal.",
+            "price": 299,
+            "veg": false
+          },
+          {
+            "id": "menu-0023",
+            "name": "Chilli Chicken",
+            "description": "Chilli Chicken — A savoury, spice-marinated preparation cooked for a bold, flavourful taste.",
+            "price": 299,
+            "veg": false
+          },
+          {
+            "id": "menu-0024",
+            "name": "Chicken 65",
+            "description": "Chicken 65 — A hearty non-vegetarian preparation cooked with aromatic spices and savoury seasoning.",
+            "price": 260,
+            "veg": false
+          },
+          {
+            "id": "menu-0025",
+            "name": "Pepper Chicken",
+            "description": "Pepper Chicken — A savoury, spice-marinated preparation cooked for a bold, flavourful taste.",
+            "price": 275,
+            "veg": false
+          }
+        ]
+      },
+      {
+        "category": "Biryani",
+        "items": [
+          {
+            "id": "menu-0026",
+            "name": "Chicken Mandi Biriyani",
+            "description": "Chicken Mandi Biriyani — Aromatic rice served with seasoned, grilled meat and traditional spices.",
+            "price": 333,
+            "veg": false
+          },
+          {
+            "id": "menu-0027",
+            "name": "Chicken Mandi Biriyani Quarter",
+            "description": "Chicken Mandi Biriyani Quarter — Aromatic rice served with seasoned, grilled meat and traditional spices.",
+            "price": 333,
+            "veg": false
+          },
+          {
+            "id": "menu-0028",
+            "name": "Egg Biryani",
+            "description": "Egg Biryani — Fragrant rice layered with aromatic spices and a flavourful meat preparation.",
+            "price": 208,
+            "veg": false
+          },
+          {
+            "id": "menu-0029",
+            "name": "Thalassery Chicken Biriyani",
+            "description": "Thalassery Chicken Biriyani — A hearty non-vegetarian preparation cooked with aromatic spices and savoury seasoning.",
+            "price": 204,
+            "veg": false
+          },
+          {
+            "id": "menu-0030",
+            "name": "Pothu Biryani",
+            "description": "Pothu Biryani — Fragrant rice layered with aromatic spices and a flavourful meat preparation.",
+            "price": 207,
+            "veg": false
+          },
+          {
+            "id": "menu-0031",
+            "name": "Al Faham Chicken Biryani",
+            "description": "Al Faham Chicken Biryani — Fragrant rice layered with aromatic spices and a flavourful meat preparation.",
+            "price": 310,
+            "veg": false
+          },
+          {
+            "id": "menu-0032",
+            "name": "Grilled Chicken Biryani",
+            "description": "Grilled Chicken Biryani — Fragrant rice layered with aromatic spices and a flavourful meat preparation.",
+            "price": 310,
+            "veg": false
+          },
+          {
+            "id": "menu-0033",
+            "name": "Kozhikode Chicken Dum Biryani",
+            "description": "Kozhikode Chicken Dum Biryani — Fragrant rice layered with aromatic spices and a flavourful meat preparation.",
+            "price": 234,
+            "veg": false
+          }
+        ]
+      },
+      {
+        "category": "Rice",
+        "items": [
+          {
+            "id": "menu-0034",
+            "name": "Biryani Rice",
+            "description": "Biryani Rice — Fragrant rice layered with aromatic spices and a flavourful vegetarian preparation.",
+            "price": 176,
+            "veg": true
+          },
+          {
+            "id": "menu-0035",
+            "name": "Ghee Rice",
+            "description": "Ghee Rice — A satisfying Indian-style dish prepared with aromatic seasoning and comforting flavours.",
+            "price": 164,
+            "veg": true
+          },
+          {
+            "id": "menu-0036",
+            "name": "Jeera Rice",
+            "description": "Jeera Rice — A satisfying Indian-style dish prepared with aromatic seasoning and comforting flavours.",
+            "price": 160,
+            "veg": true
+          },
+          {
+            "id": "menu-0037",
+            "name": "Plain Rice",
+            "description": "Plain Rice — A satisfying Indian-style dish prepared with aromatic seasoning and comforting flavours.",
+            "price": 100,
+            "veg": true
+          }
+        ]
+      },
+      {
+        "category": "Fried Rice",
+        "items": [
+          {
+            "id": "menu-0038",
+            "name": "Veg Fried Rice",
+            "description": "Veg Fried Rice — A wok-tossed dish with savoury seasoning and a mix of vegetables.",
+            "price": 188,
+            "veg": true
+          },
+          {
+            "id": "menu-0039",
+            "name": "Mushroom Fried Rice",
+            "description": "Mushroom Fried Rice — A wok-tossed dish with savoury seasoning and a mix of vegetables.",
+            "price": 239,
+            "veg": true
+          },
+          {
+            "id": "menu-0040",
+            "name": "Paneer Fried Rice",
+            "description": "Paneer Fried Rice — A wok-tossed dish with savoury seasoning and a mix of vegetables.",
+            "price": 239,
+            "veg": true
+          },
+          {
+            "id": "menu-0041",
+            "name": "Gobi Fried Rice",
+            "description": "Gobi Fried Rice — A wok-tossed dish with savoury seasoning and a mix of vegetables.",
+            "price": 237,
+            "veg": true
+          },
+          {
+            "id": "menu-0042",
+            "name": "Egg Fried Rice",
+            "description": "Egg Fried Rice — A wok-tossed dish with savoury seasoning and a mix of vegetables, egg or meat.",
+            "price": 225,
+            "veg": false
+          },
+          {
+            "id": "menu-0043",
+            "name": "Chicken Fried Rice",
+            "description": "Chicken Fried Rice — A wok-tossed dish with savoury seasoning and a mix of vegetables, egg or meat.",
+            "price": 255,
+            "veg": false
+          },
+          {
+            "id": "menu-0044",
+            "name": "Pothu Fried Rice",
+            "description": "Pothu Fried Rice — A wok-tossed dish with savoury seasoning and a mix of vegetables, egg or meat.",
+            "price": 239,
+            "veg": false
+          }
+        ]
+      },
+      {
+        "category": "Noodles",
+        "items": [
+          {
+            "id": "menu-0045",
+            "name": "Veg Noodles",
+            "description": "Veg Noodles — A wok-tossed dish with savoury seasoning and a mix of vegetables.",
+            "price": 188,
+            "veg": true
+          },
+          {
+            "id": "menu-0046",
+            "name": "Mushroom Noodles",
+            "description": "Mushroom Noodles — A wok-tossed dish with savoury seasoning and a mix of vegetables.",
+            "price": 239,
+            "veg": true
+          },
+          {
+            "id": "menu-0047",
+            "name": "Paneer Noodles",
+            "description": "Paneer Noodles — A wok-tossed dish with savoury seasoning and a mix of vegetables.",
+            "price": 239,
+            "veg": true
+          },
+          {
+            "id": "menu-0048",
+            "name": "Gobi Noodles",
+            "description": "Gobi Noodles — A wok-tossed dish with savoury seasoning and a mix of vegetables.",
+            "price": 237,
+            "veg": true
+          },
+          {
+            "id": "menu-0049",
+            "name": "Egg Noodles",
+            "description": "Egg Noodles — A wok-tossed dish with savoury seasoning and a mix of vegetables, egg or meat.",
+            "price": 225,
+            "veg": false
+          },
+          {
+            "id": "menu-0050",
+            "name": "Chicken Noodles",
+            "description": "Chicken Noodles — A wok-tossed dish with savoury seasoning and a mix of vegetables, egg or meat.",
+            "price": 270,
+            "veg": false
+          },
+          {
+            "id": "menu-0051",
+            "name": "Pothu Noodles",
+            "description": "Pothu Noodles — A wok-tossed dish with savoury seasoning and a mix of vegetables, egg or meat.",
+            "price": 270,
+            "veg": false
+          }
+        ]
+      },
+      {
+        "category": "Beverages",
+        "items": [
+          {
+            "id": "menu-0052",
+            "name": "Fresh Lime",
+            "description": "Fresh Lime — A refreshing drink prepared to complement your meal.",
+            "price": 42,
+            "veg": true
+          },
+          {
+            "id": "menu-0053",
+            "name": "Lime Soda",
+            "description": "Lime Soda — A refreshing drink prepared to complement your meal.",
+            "price": 55,
+            "veg": true
+          },
+          {
+            "id": "menu-0054",
+            "name": "Mango Milkshake",
+            "description": "Mango Milkshake — A refreshing drink prepared to complement your meal.",
+            "price": 87,
+            "veg": true
+          },
+          {
+            "id": "menu-0055",
+            "name": "Papaya Milkshake",
+            "description": "Papaya Milkshake — A refreshing drink prepared to complement your meal.",
+            "price": 75,
+            "veg": true
+          },
+          {
+            "id": "menu-0056",
+            "name": "Oreo Milkshake",
+            "description": "Oreo Milkshake — A refreshing drink prepared to complement your meal.",
+            "price": 87,
+            "veg": true
+          },
+          {
+            "id": "menu-0057",
+            "name": "Strawberry Milkshake",
+            "description": "Strawberry Milkshake — A refreshing drink prepared to complement your meal.",
+            "price": 87,
+            "veg": true
+          },
+          {
+            "id": "menu-0058",
+            "name": "Cold Coffee",
+            "description": "Cold Coffee — A refreshing drink prepared to complement your meal.",
+            "price": 100,
+            "veg": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurantId": "229",
+    "restaurantName": "Meghana Foods",
+    "cloudinaryImageId": "xqwpuhgnsaf18te7zvtv",
+    "menu": [
+      {
+        "category": "Recommended",
+        "items": [
+          {
+            "id": "menu-0059",
+            "name": "Chicken Biryani",
+            "description": "Chicken Biryani — Fragrant rice layered with aromatic spices and a flavourful meat preparation.",
+            "price": 365,
+            "veg": false
+          },
+          {
+            "id": "menu-0060",
+            "name": "Chicken Boneless Biryani",
+            "description": "Chicken Boneless Biryani — Fragrant rice layered with aromatic spices and a flavourful meat preparation.",
+            "price": 375,
+            "veg": false
+          },
+          {
+            "id": "menu-0061",
+            "name": "Meghana Special Boneless Biryani",
+            "description": "Meghana Special Boneless Biryani — Fragrant rice layered with aromatic spices and a flavourful meat preparation.",
+            "price": 383,
+            "veg": false
+          },
+          {
+            "id": "menu-0062",
+            "name": "Chicken 65",
+            "description": "Chicken 65 — A hearty non-vegetarian preparation cooked with aromatic spices and savoury seasoning.",
+            "price": 375,
+            "veg": false
+          },
+          {
+            "id": "menu-0063",
+            "name": "Chilly Chicken Boneless",
+            "description": "Chilly Chicken Boneless — A hearty non-vegetarian preparation cooked with aromatic spices and savoury seasoning.",
+            "price": 375,
+            "veg": false
+          },
+          {
+            "id": "menu-0064",
+            "name": "Meghana Chicken Special",
+            "description": "Meghana Chicken Special — A hearty non-vegetarian preparation cooked with aromatic spices and savoury seasoning.",
+            "price": 380,
+            "veg": false
+          }
+        ]
+      },
+      {
+        "category": "Non-Veg Biryani",
+        "items": [
+          {
+            "id": "menu-0065",
+            "name": "Chicken Biryani",
+            "description": "Chicken Biryani — Fragrant rice layered with aromatic spices and a flavourful meat preparation.",
+            "price": 365,
+            "veg": false
+          },
+          {
+            "id": "menu-0066",
+            "name": "Chicken Boneless Biryani",
+            "description": "Chicken Boneless Biryani — Fragrant rice layered with aromatic spices and a flavourful meat preparation.",
+            "price": 375,
+            "veg": false
+          },
+          {
+            "id": "menu-0067",
+            "name": "Meghana Special Boneless Biryani",
+            "description": "Meghana Special Boneless Biryani — Fragrant rice layered with aromatic spices and a flavourful meat preparation.",
+            "price": 383,
+            "veg": false
+          },
+          {
+            "id": "menu-0068",
+            "name": "Mutton Biryani",
+            "description": "Mutton Biryani — Fragrant rice layered with aromatic spices and a flavourful meat preparation.",
+            "price": 450,
+            "veg": false
+          },
+          {
+            "id": "menu-0069",
+            "name": "Mutton Keema Biryani",
+            "description": "Mutton Keema Biryani — Fragrant rice layered with aromatic spices and a flavourful meat preparation.",
+            "price": 450,
+            "veg": false
+          },
+          {
+            "id": "menu-0070",
+            "name": "Fish Biryani",
+            "description": "Fish Biryani — Fragrant rice layered with aromatic spices and a flavourful meat preparation.",
+            "price": 400,
+            "veg": false
+          },
+          {
+            "id": "menu-0071",
+            "name": "Egg Biryani",
+            "description": "Egg Biryani — Fragrant rice layered with aromatic spices and a flavourful meat preparation.",
+            "price": 300,
+            "veg": false
+          },
+          {
+            "id": "menu-0072",
+            "name": "Box Chicken Fry Biryani",
+            "description": "Box Chicken Fry Biryani — Fragrant rice layered with aromatic spices and a flavourful meat preparation.",
+            "price": 390,
+            "veg": false
+          },
+          {
+            "id": "menu-0073",
+            "name": "Box Nati Chicken Biryani",
+            "description": "Box Nati Chicken Biryani — Fragrant rice layered with aromatic spices and a flavourful meat preparation.",
+            "price": 420,
+            "veg": false
+          },
+          {
+            "id": "menu-0074",
+            "name": "Box Fish Biryani",
+            "description": "Box Fish Biryani — Fragrant rice layered with aromatic spices and a flavourful meat preparation.",
+            "price": 430,
+            "veg": false
+          },
+          {
+            "id": "menu-0075",
+            "name": "Box Mutton Kheema Biryani",
+            "description": "Box Mutton Kheema Biryani — Fragrant rice layered with aromatic spices and a flavourful meat preparation.",
+            "price": 480,
+            "veg": false
+          }
+        ]
+      },
+      {
+        "category": "Starters",
+        "items": [
+          {
+            "id": "menu-0076",
+            "name": "Chicken 65",
+            "description": "Chicken 65 — A hearty non-vegetarian preparation cooked with aromatic spices and savoury seasoning.",
+            "price": 375,
+            "veg": false
+          },
+          {
+            "id": "menu-0077",
+            "name": "Chilly Chicken Boneless",
+            "description": "Chilly Chicken Boneless — A hearty non-vegetarian preparation cooked with aromatic spices and savoury seasoning.",
+            "price": 375,
+            "veg": false
+          },
+          {
+            "id": "menu-0078",
+            "name": "Pepper Chicken",
+            "description": "Pepper Chicken — A savoury, spice-marinated preparation cooked for a bold, flavourful taste.",
+            "price": 380,
+            "veg": false
+          },
+          {
+            "id": "menu-0079",
+            "name": "Chicken Manchurian",
+            "description": "Chicken Manchurian — A flavourful Indo-Chinese preparation with savoury sauces and aromatic seasoning.",
+            "price": 370,
+            "veg": false
+          },
+          {
+            "id": "menu-0080",
+            "name": "Chicken Lollipop",
+            "description": "Chicken Lollipop — A savoury, spice-marinated preparation cooked for a bold, flavourful taste.",
+            "price": 390,
+            "veg": false
+          },
+          {
+            "id": "menu-0081",
+            "name": "Chicken Kabab",
+            "description": "Chicken Kabab — A savoury, spice-marinated preparation cooked for a bold, flavourful taste.",
+            "price": 360,
+            "veg": false
+          },
+          {
+            "id": "menu-0082",
+            "name": "Meghana Chicken Special",
+            "description": "Meghana Chicken Special — A hearty non-vegetarian preparation cooked with aromatic spices and savoury seasoning.",
+            "price": 380,
+            "veg": false
+          },
+          {
+            "id": "menu-0083",
+            "name": "Fish Fry",
+            "description": "Fish Fry — A savoury, spice-marinated preparation cooked for a bold, flavourful taste.",
+            "price": 390,
+            "veg": false
+          },
+          {
+            "id": "menu-0084",
+            "name": "Prawn Fry",
+            "description": "Prawn Fry — A savoury, spice-marinated preparation cooked for a bold, flavourful taste.",
+            "price": 420,
+            "veg": false
+          }
+        ]
+      },
+      {
+        "category": "Tandoor",
+        "items": [
+          {
+            "id": "menu-0085",
+            "name": "Chicken Tandoori Half",
+            "description": "Chicken Tandoori Half — A savoury, spice-marinated preparation cooked for a bold, flavourful taste.",
+            "price": 350,
+            "veg": false
+          },
+          {
+            "id": "menu-0086",
+            "name": "Chicken Tandoori Full",
+            "description": "Chicken Tandoori Full — A savoury, spice-marinated preparation cooked for a bold, flavourful taste.",
+            "price": 650,
+            "veg": false
+          },
+          {
+            "id": "menu-0087",
+            "name": "Chicken Tikka",
+            "description": "Chicken Tikka — A savoury, spice-marinated preparation cooked for a bold, flavourful taste.",
+            "price": 380,
+            "veg": false
+          },
+          {
+            "id": "menu-0088",
+            "name": "Chicken Malai Tikka",
+            "description": "Chicken Malai Tikka — A savoury, spice-marinated preparation cooked for a bold, flavourful taste.",
+            "price": 390,
+            "veg": false
+          },
+          {
+            "id": "menu-0089",
+            "name": "Tandoori Chicken Platter",
+            "description": "Tandoori Chicken Platter — A savoury, spice-marinated preparation cooked for a bold, flavourful taste.",
+            "price": 550,
+            "veg": false
+          }
+        ]
+      },
+      {
+        "category": "Chicken Curries",
+        "items": [
+          {
+            "id": "menu-0090",
+            "name": "Andhra Chicken Curry",
+            "description": "Andhra Chicken Curry — A hearty, spice-rich Indian preparation served with a flavourful gravy.",
+            "price": 390,
+            "veg": false
+          },
+          {
+            "id": "menu-0091",
+            "name": "Butter Chicken",
+            "description": "Butter Chicken — A hearty non-vegetarian preparation cooked with aromatic spices and savoury seasoning.",
+            "price": 400,
+            "veg": false
+          },
+          {
+            "id": "menu-0092",
+            "name": "Pepper Chicken Curry",
+            "description": "Pepper Chicken Curry — A hearty, spice-rich Indian preparation served with a flavourful gravy.",
+            "price": 390,
+            "veg": false
+          },
+          {
+            "id": "menu-0093",
+            "name": "Chicken Masala",
+            "description": "Chicken Masala — A hearty, spice-rich Indian preparation served with a flavourful gravy.",
+            "price": 380,
+            "veg": false
+          },
+          {
+            "id": "menu-0094",
+            "name": "Chicken Tikka Masala",
+            "description": "Chicken Tikka Masala — A hearty, spice-rich Indian preparation served with a flavourful gravy.",
+            "price": 420,
+            "veg": false
+          }
+        ]
+      },
+      {
+        "category": "Mutton",
+        "items": [
+          {
+            "id": "menu-0095",
+            "name": "Mutton Curry",
+            "description": "Mutton Curry — A hearty, spice-rich Indian preparation served with a flavourful gravy.",
+            "price": 450,
+            "veg": false
+          },
+          {
+            "id": "menu-0096",
+            "name": "Mutton Pepper Fry",
+            "description": "Mutton Pepper Fry — A savoury, spice-marinated preparation cooked for a bold, flavourful taste.",
+            "price": 470,
+            "veg": false
+          },
+          {
+            "id": "menu-0097",
+            "name": "Mutton Keema",
+            "description": "Mutton Keema — A hearty non-vegetarian preparation cooked with aromatic spices and savoury seasoning.",
+            "price": 460,
+            "veg": false
+          },
+          {
+            "id": "menu-0098",
+            "name": "Mutton Chops",
+            "description": "Mutton Chops — A hearty non-vegetarian preparation cooked with aromatic spices and savoury seasoning.",
+            "price": 490,
+            "veg": false
+          }
+        ]
+      },
+      {
+        "category": "Veg",
+        "items": [
+          {
+            "id": "menu-0099",
+            "name": "Veg Manchurian",
+            "description": "Veg Manchurian — A flavourful Indo-Chinese preparation with savoury sauces and aromatic seasoning.",
+            "price": 280,
+            "veg": true
+          },
+          {
+            "id": "menu-0100",
+            "name": "Paneer 65",
+            "description": "Paneer 65 — A vegetarian preparation featuring paneer with a blend of Indian spices and a rich, savoury flavour.",
+            "price": 300,
+            "veg": true
+          },
+          {
+            "id": "menu-0101",
+            "name": "Paneer Chilli",
+            "description": "Paneer Chilli — A vegetarian preparation featuring paneer with a blend of Indian spices and a rich, savoury flavour.",
+            "price": 300,
+            "veg": true
+          },
+          {
+            "id": "menu-0102",
+            "name": "Mix Vegetable Curry",
+            "description": "Mix Vegetable Curry — A hearty, spice-rich Indian preparation served with a flavourful gravy.",
+            "price": 280,
+            "veg": true
+          },
+          {
+            "id": "menu-0103",
+            "name": "Paneer Butter Masala",
+            "description": "Paneer Butter Masala — A vegetarian preparation featuring paneer with a blend of Indian spices and a rich, savoury flavour.",
+            "price": 310,
+            "veg": true
+          },
+          {
+            "id": "menu-0104",
+            "name": "Dal Fry",
+            "description": "Dal Fry — A comforting lentil preparation simmered with Indian spices and a fragrant tempering.",
+            "price": 220,
+            "veg": true
+          }
+        ]
+      },
+      {
+        "category": "Rice",
+        "items": [
+          {
+            "id": "menu-0105",
+            "name": "Meghana Special Fried Rice",
+            "description": "Meghana Special Fried Rice — A wok-tossed dish with savoury seasoning and a mix of vegetables, egg or meat.",
+            "price": 330,
+            "veg": false
+          },
+          {
+            "id": "menu-0106",
+            "name": "Chicken Fried Rice",
+            "description": "Chicken Fried Rice — A wok-tossed dish with savoury seasoning and a mix of vegetables, egg or meat.",
+            "price": 340,
+            "veg": false
+          },
+          {
+            "id": "menu-0107",
+            "name": "Egg Fried Rice",
+            "description": "Egg Fried Rice — A wok-tossed dish with savoury seasoning and a mix of vegetables, egg or meat.",
+            "price": 300,
+            "veg": false
+          },
+          {
+            "id": "menu-0108",
+            "name": "Veg Fried Rice",
+            "description": "Veg Fried Rice — A wok-tossed dish with savoury seasoning and a mix of vegetables.",
+            "price": 280,
+            "veg": true
+          },
+          {
+            "id": "menu-0109",
+            "name": "Jeera Rice",
+            "description": "Jeera Rice — A satisfying Indian-style dish prepared with aromatic seasoning and comforting flavours.",
+            "price": 220,
+            "veg": true
+          },
+          {
+            "id": "menu-0110",
+            "name": "Plain Rice",
+            "description": "Plain Rice — A satisfying Indian-style dish prepared with aromatic seasoning and comforting flavours.",
+            "price": 180,
+            "veg": true
+          }
+        ]
+      }
+    ]
+  }
+]

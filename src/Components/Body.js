@@ -3,7 +3,7 @@ import { withPromotedLabel } from "./RestaurantCards";
 import React, { lazy, Suspense } from "react";
 import resList from "../utils/mockData";
 import { useState, useEffect } from "react";
-import resList from "../utils/mockData";
+
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
@@ -56,6 +56,7 @@ const Body = () => {
           <input
             type="text"
             name="search"
+            data-testid="searchInput"
             className="border border-solid border-black w-100 h-13 rounded-l-lg shadow-md p-4"
             placeholder="Search for restaurants and food"
             value={searchText}
@@ -73,7 +74,8 @@ const Body = () => {
               setFilteredRestaurants(filteredRestaurant);
             }}
           >
-            <i className="fa-solid fa-magnifying-glass"></i>
+            {/* <i className="fa-solid fa-magnifying-glass"></i> */}
+            search
           </button>
         </div>
 

@@ -1,7 +1,8 @@
 import { CDN_URL } from "../utils/contants";
-import check from "../utils/check.png";
+
 const RestaurantCards = (props) => {
   const { resData } = props;
+
   const {
     cloudinaryImageId,
     name,
@@ -13,6 +14,7 @@ const RestaurantCards = (props) => {
   } = resData?.data;
   return (
     <div
+      data-testid="resCard"
       className="w-53 h-130 p-1.5 m-2.5 border-2 border-solid border-[#c8a98a] rounded-lg shadow-xl
     transition-all duration-300 hover:scale-[1.03] hover:bg-[#FFF7E6] hover:shadow-2xl"
     >

@@ -9,6 +9,9 @@ import Contact from "./Components/Contact";
 import Error from "./Components/Error";
 import RestaurantMenu from "./Components/RestaurantMenu";
 import Shimmer from "./Components/Shimmer";
+import { Provider } from "react-redux";
+import appStore from "./utils/appStore";
+import Cart from "./Components/Cart";
 
 // import Grocery from "./Components/Grocery";
 import { useState } from "react";
@@ -17,11 +20,13 @@ const AppLayout = () => {
   const [cartItems, setCartItems] = useState(0);
 
   return (
-    <div className="min-h-screen bg-amber-100">
-      <Header cartItems={cartItems} />
-      <Outlet context={{ setCartItems }} />
-      <Footer />
-    </div>
+    <Provider store={appStore}>
+      <div className="min-h-screen bg-amber-100">
+        <Header cartItems={cartItems} />
+        <Outlet context={{ setCartItems }} />
+        <Footer />
+      </div>
+    </Provider>
   );
 };
 const appRouter = createBrowserRouter([
@@ -52,6 +57,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/restaurants/:resId",
         element: <RestaurantMenu />,
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
       },
     ],
     errorElement: <Error />,

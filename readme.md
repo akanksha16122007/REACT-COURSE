@@ -287,3 +287,48 @@ RestaurantCategory is a controlled component as it is controlled by its parent R
 component and access the user in it.
 --> to change the user to some name like "Akanksha" we will use contextProvider.-->
 over here <UserContext.Provider/>
+
+# Redux
+
+--> it works in the data layer of our app.
+--> redux is not mandatory for our app.
+--> redux is not part of react
+--> it is a separate library which we install in our app.
+--> redux offers easy debugging.
+
+# React-Redux Library
+
+-->bridge between react and redux.
+
+# Cart Function
+
+--> when you click on the add button it dispatches an action --> it calls a function --> the function modifies the cart.
+
+# Redux Toolkit --> RTK Query (Read)
+
+- Install Redux Toolkit. --> @reduxjs/toolkit and react-redux.
+- Build our store.
+- connect our store to our app.
+- create a Slice(cart).
+- dispatch an action
+- Selector (read the data).
+
+# Always subscribe to the small portion of our store.
+
+# Redux behind the scenes uses immer.
+
+# Testing
+
+# Types of testing:(Developer)
+
+1. Manual Testing --> manually testing the things by seeing if it is rendered or not by clicking on the specific page of our app.
+2. Writing the test code (testcases) which will test our application automatically.
+   (i) Unit testing --> you test your react components in isolation. --> to just test one specific component of your app --> to check if it rendered properly or not (it should not have any bug)
+   (ii) Integration testing --> testing the integration of our component (each and every component talk to each other)--> there are multiple components which talk to each other and they develop a flow to give us the output.ex: Search bar
+   (iii) End to End testing (e2e) --> it is simulating( kind off recording ) what the user will do throughout its session.
+
+# React Testing Library
+
+--> this library uses "jest" behind the scenes.
+
+# use watch-test to not load your testcases again and again by running the command "npm run test", it will automatically run.
